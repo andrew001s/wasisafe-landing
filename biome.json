@@ -118,7 +118,10 @@
         "noDescendingSpecificity": "off",
         "noEnum": "error"
       },
-      "complexity": "warn",
+      "complexity": {
+        "recommended": true,
+        "noExcessiveLinesPerFunction": "off"
+      },
       "security": {
         "noDangerouslySetInnerHtml": "off"
       }

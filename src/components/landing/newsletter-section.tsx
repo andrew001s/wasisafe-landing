@@ -11,7 +11,6 @@ import { fadeInUp, scaleIn } from '@/utils/animations';
 import { AnimatedSection } from './animated-section';
 import { SectionContainer } from './section-container';
 
-// biome-ignore lint/complexity/noExcessiveLinesPerFunction: <Newsletter Section>
 export function NewsletterSection() {
 	const [email, setEmail] = useState('');
 	const [name, setName] = useState('');
