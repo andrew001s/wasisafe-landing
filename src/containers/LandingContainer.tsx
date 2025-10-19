@@ -7,7 +7,6 @@ import {
 	VisionSection,
 } from '@/components/landing';
 import { MediaContentSection } from '@/components/landing/media-content-section';
-import { ValuesSection } from '@/components/landing/values-section';
 
 export const LandingContainer = () => {
 	return (
@@ -40,9 +39,6 @@ export const LandingContainer = () => {
 
 			<BenefitsSection />
 			<VisionSection />
-
-			{/* Values Section */}
-			<ValuesSection />
 
 			{/* Media Content Section - Monitoring */}
 			<MediaContentSection
